@@ -14,8 +14,7 @@ console.log(myObj.message)
 
 // Create an object that has your name and age. 
 
-var obj = {"name": "Marian",
-           "age": 26}
+var obj = {"name": "Marian","age": 26}
 
 console.log(obj.name, obj.age)
 // --------------------------------------
@@ -37,7 +36,6 @@ var thisSong = {"description": "The best song in the world."}
 // remove the property "description" and add a property called "about" that should say "Just a tribute." 
 
 delete thisSong.description
-
 thisSong.about = "Just a tribute"
 
 console.log(thisSong.description, thisSong.about)
