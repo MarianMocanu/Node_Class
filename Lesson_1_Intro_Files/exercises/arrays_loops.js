@@ -15,7 +15,7 @@ var friends = [];
 
 // What a lonely array. Add at least 3 friend objects to it.  
 
-friends.push("Banana", "Apple", "Watermelon")
+friends.push({"fruit": "Banana"}, {"fruit": "Banana"}, {"fruit": "Banana"})
 console.log(friends)
 
 // --------------------------------------
