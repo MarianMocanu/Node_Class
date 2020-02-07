@@ -44,11 +44,13 @@ console.log(letters.charAt(2))
 // --------------------------------------
 // Exercise 7 - Replace
 
-var fact = "You are learning javascript and java!";
+var fact = "You j are learning javascript and java!";
 
 // capitalize the J in Javascript
-
+    
+var indexOfJ = fact.indexOf('j')
 console.log(fact.replace('j', 'J'))
+console.log(fact.charAt(indexOfJ).toUpperCase(), indexOfJ)
 
 
 
