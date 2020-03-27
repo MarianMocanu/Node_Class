@@ -1,3 +1,19 @@
 #copyright {
     font-size: 0.8em;
 }
+
+#logo{
+    width: 10%;
+}
+
+#main-content {
+    min-height: calc(100vh - 110px);
+}
+
+footer {
+    height: 10px;
+}
+
+#upload-link {
+    float: right;
+}
